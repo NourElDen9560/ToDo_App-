@@ -1,0 +1,75 @@
+*{
+    padding: 0 ; 
+    box-sizing: border-box ; 
+    margin: 0 ; 
+}
+body{
+    font-family: sans-serif ; 
+}
+/** start details **/
+.big-section{
+    padding: 100px 0px;
+    padding-top:40px;
+    background-color: #F5F5F5;
+}
+.father-sec{
+    color: #444444;
+    
+}
+.second-row{
+    padding: 90px 0px;
+}
+.product{
+    margin-top: 15px;
+}
+.father-sec h1:before , .end h1:before { 
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    right: 0;
+    width: 127px;
+    height: 2px;
+    background-color: #e0e0e0;
+}
+.father-sec h1:after ,  .end h1:after {
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    width: 40px;
+    height: 5px;
+    background-color: #5672f9;
+}
+.father-sec .images img{
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding-top: 40px
+}
+.father-sec .card-title{
+    color: blue;
+}
+.product-meta li a i{
+    color:#8C8C8C;
+    margin-right: 5px;
+}
+.card-text:last-child{
+    color: #545454;
+}
+.product-item .product-ratings .selected i {
+    color: #5672f9;
+}
+.iphonex{
+    height: 250px;
+}
+.older{
+margin-top: 20px ; 
+    width: 100%;
+}
+/** end details **/

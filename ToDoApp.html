@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    
+    <!-- font awesome -->
+    <!-- icons -->
+    <link rel="stylesheet" href="css/hover.css" />
+    <!-- Hovers -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+    <!-- font family -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/ToDoApp.css" />
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <title>TO DO APP</title>
+  </head>
+  <body>
+    <div class="shadow p-3 mb-5 bg-body rounded todo-container">
+      <div class="input-task">
+        <input type="text" class="form-control" id="inp" placeholder="Enter Your Appointments" />
+        <span class="plus" >+</span>
+      </div>
+      <!--input area-->
+
+      <div class=" tasks_area">
+        <!--tasks area-->
+        <div class=" shadow p-3 mb-5 bg-body rounded notasks ">
+          <!-- no tasks-->
+          <span class="no text-center">No Tasks Now</span>
+        </div>
+        <div class="task_content">
+          <!--has tasks-->
+          <!--
+             ------------------------ try test ------------------
+            <div class="task">
+            <span>One Task</span>
+            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-primary">Completed</button>
+          </div>
+          <div class="task">
+            <span>One Task</span>
+            <button class="btn btn-danger">Delete</button>
+            <button class="btn btn-primary">Completed</button>
+          </div>
+          
+        -->
+
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="javascript/ToDoApp.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
